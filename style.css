@@ -103,3 +103,24 @@ main {
     transform: translateX(-50%);
     
   }
+  .card-circle {
+    margin-top: 100px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+  
+  .card-circle .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 50%;
+
+  }
+  
+  .card-circle h5 {
+    margin-bottom: 0;
+  }
+  
