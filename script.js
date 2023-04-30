@@ -1,14 +1,3 @@
-
-// document.getElementById("search-btn").addEventListener("click", function(event) {
-// 	event.preventDefault(); // prevent form from submitting
-// 	let searchTerm = document.getElementById("search-input").value;
-// 	if (searchTerm.trim() !== "") {
-// 		alert("You searched for: " + searchTerm);
-// 	} else {
-// 		alert("Please enter a search term.");
-// 	}
-// });
-
 const companies = [
     { name: "Amazon", link: "https://example.com/company1", button: "Learn More" },
     { name: "Walmart", link: "https://example.com/company2", button: "Learn More" },
