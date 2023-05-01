@@ -41,8 +41,8 @@ main {
 
 #search {
     max-width: 500px;
-    margin: 80px auto 0;
-    margin-bottom: 80px;
+    margin: 60px auto 0;
+    margin-bottom: 60px;
 
   }
   
@@ -85,6 +85,9 @@ main {
   .card-body {
     padding: 20px;
     position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .card-header {
@@ -94,6 +97,12 @@ main {
     font-size: 24px;
     font-weight: bold;
     padding: 10px;
+    /* width: 200px; */
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    
+    
   }
 
   .card-link {
@@ -124,3 +133,19 @@ main {
     margin-bottom: 0;
   }
   
+  /* Add the following styles to your CSS file */
+
+/* Center the card */
+.card.searched {
+  margin: 0 auto;
+}
+
+/* Increase the size of the card */
+.card.searched .card-body {
+  padding: 1.5rem;
+}
+
+.card.searched .card-header {
+  font-size: 1.2 rem;
+  font-weight: bold;
+}
