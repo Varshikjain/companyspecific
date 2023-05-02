@@ -29,14 +29,14 @@ function displayCards(pageNum, searchTerm) {
       cardHeader.classList.add("card-header");
       cardHeader.textContent = company.name;
   
-      const cardTitle = document.createElement("h5");
-      cardTitle.classList.add("card-title");
-      cardTitle.textContent = "Welcome to " + company.name;
+      // const cardTitle = document.createElement("h5");
+      // cardTitle.classList.add("card-title");
+      // cardTitle.textContent = "Welcome to " + company.name;
   
       const cardBodyInner = document.createElement("div");
       cardBodyInner.classList.add("card-body", "text-center");
       cardBodyInner.appendChild(cardHeader);
-      cardBodyInner.appendChild(cardTitle);
+      // cardBodyInner.appendChild(cardTitle);
   
       const link = document.createElement("a");
       link.href = company.link;

@@ -30,6 +30,3 @@ function searchCompanies(event) {
     const searchTerm = document.querySelector('#search-input').value;
     displayCards(1, searchTerm);
   }
-  
-
-
