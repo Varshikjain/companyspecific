@@ -1,139 +1,131 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 body {
-	background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 
 header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  /* background-color: #333; */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul {
-	list-style: none;
-	display: flex;
+.navbar {
+  padding: 15px 10px;
+  font-size: 20px;
 }
 
-nav li {
-	margin-right: 20px;
-}
-
-nav a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
-}
 
 main {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 #search {
-    max-width: 500px;
-    margin: 60px auto 0;
-    margin-bottom: 60px;
+  max-width: 500px;
+  margin: 60px auto 0;
+  margin-bottom: 60px;
 
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  input[type="text"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button[type="submit"] {
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+}
 
-  .card {
-    background-color: #f8f9fa;
-    border: none;
-    transition: all 0.3s ease-in-out;
-  }
+label {
+  font-weight: bold;
+}
 
-  .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  }
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
-  .card-title {
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 0;
-  }
+button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  .card-body {
-    padding: 20px;
-    position: relative;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+.card {
+  background-color: #f8f9fa;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
 
-  .card-header {
-    background-color: #ffffff;
-    border-bottom: none;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 10px;
-    /* width: 200px; */
-    /* white-space: nowrap;
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.card-body {
+  padding: 20px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-header {
+  background-color: #ffffff;
+  border-bottom: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  /* width: 200px; */
+  /* white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; */
-    
-    
-  }
 
-  .card-link {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    
-  }
-  .card-circle {
-    margin-top: 100px;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-  }
-  
-  .card-circle .card-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-color: #007bff;
-    border-radius: 50%;
 
-  }
-  
-  .card-circle h5 {
-    margin-bottom: 0;
-  }
-  
-  /* Add the following styles to your CSS file */
+}
+
+.card-link {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.card-circle {
+  margin-top: 100px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.card-circle .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 50%;
+
+}
+
+.card-circle h5 {
+  margin-bottom: 0;
+}
+
+/* Add the following styles to your CSS file */
 
 /* Center the card */
 .card.searched {

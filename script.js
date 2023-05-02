@@ -1,6 +1,6 @@
 const companies = [
   { name: "Amazon", link: "https://example.com/company1", button: "Learn More" },
-  { name: "Walmart", link: "https://example.com/company2", button: "Learn More" },
+  { name: "Walmart", link: "https://drive.google.com/drive/folders/1-vudiF5gV70dMgFxo6axJ75I7vH6ZxBN", button: "Learn More" },
   { name: "Juspay", link: "https://example.com/company3", button: "Learn More" },
   { name: "Nutanix", link: "https://example.com/company4", button: "Learn More" },
   { name: "E & Y", link: "https://example.com/company5", button: "Learn More" },
@@ -26,7 +26,7 @@ searchButton.addEventListener('click', searchCompanies);
 // Use the companies array as needed
 
 function searchCompanies(event) {
-    event.preventDefault();
-    const searchTerm = document.querySelector('#search-input').value;
-    displayCards(1, searchTerm);
-  }
+  event.preventDefault();
+  const searchTerm = document.querySelector('#search-input').value;
+  displayCards(1, searchTerm);
+}
